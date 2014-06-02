@@ -126,7 +126,6 @@ use strict;
 use warnings;
 use Getopt::Long;
 use DateTime;
-use Data::Dumper;
 use List::Util 'sum';
 
 $|=1;
@@ -283,8 +282,6 @@ foreach my $mode (@modes) {
     }
   }
 };
-
-print Dumper($found);
 
 my $logincount = 0;
 
